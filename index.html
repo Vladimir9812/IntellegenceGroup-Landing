@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content = "width=device-width, initial-scale=1">
+	<title>Главная страница</title>
+	<!--подключаем стили-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="js/slick/slick.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--начальный экран-->
+	<div class="section-top">
+		<!-- шапка -->
+		<header class="header">
+			<div class="wrap">
+				<div class="header__row">
+					<div class="header__main">
+						<button class="header__menu-toggle js-mobmenu-open"><span></span></button>
+						<div class="header__logo"><img src="images/logo.svg"></div>
+						<div class="header__menu">
+							<button class="header__menu-close js-mobmenu-close"><img src="images/close.svg" alt="close"></button>
+							<div class="header__helper">
+								<ul class="mainmenu">
+									<li><a href="#courses" class= "js-scroll-link">Направления</a></li>
+									<li><a href="#conditions" class= "js-scroll-link">Условия</a></li>
+									<li><a href="#reviews" class= "js-scroll-link">Отзывы</a></li>
+								</ul>
+								<a href="#" class="btn btn--blue">регистрация</a>
+							</div>
+						</div>
+					</div>
+					<div class="header__r">
+						<a href="#" class="btn btn--blue">регистация</a>
+					</div>
+				</div>
+			</div>
+		</header> 
+
+		<div class="wrap section-top__content">
+			<h1>GPN Intelligence Cup</h1>
+			<p><strong>Ваша шанс начать карьеру в Дирекции региональных продаж «Газпром нефть» в <br>Санкт&#8209;Петербурге и Екатеринбурге.</strong></p>
+			<a href="#" class="btn btn--blue">Подробнее</a>
+		</div>	
+	</div>
+
+<!-- направления -->
+<div class="section section-course" id="courses">
+	<div class="wrap">
+		<h2>GPN Intelligence Cup</h2>
+        <p>Это ежегодный онлайн кейс-чемпионат ПАО «Газпром нефть» для студентов&#8209;бакалавров старших курсов и магистров технических и экономических специальностей.</p>
+
+        <div class="courses">
+        	<div class="courses__title">Направления кейс-чемпионата:</div>
+            <div class="courses__list">
+            	<div class="courses__i">
+            		<h3>Анализ и инжиниринг данных</h3>
+                    <ul>
+                    	<li>Разработка BI-приложений</li>
+                    	<li>Разработка алгоритмов обработки больших массивов данных</li>
+                        <li>Продвинутая аналитика</li>
+                    </ul>
+                </div>
+                <div class="courses__i">
+                	<h3>Бизнес и стратегия</h3>
+                	<p>Это ежегодный онлайн кейс-чемпионат ПАО «Газпром нефть» для
+					студентов-бакалавров старших курсов и магистров технических и экономических
+					специальностей.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- //направления -->
+
+<!-- Причины -->
+<div class="section section-reasons" id = "reasons">
+	<div class="wrap">
+		<h2>Почему стоит участвовать?</h2>
+		<div class="reasons">
+			<div class="reason">
+				<div class="reason__slang">Старт успешной карьеры в Санкт-Петербурге и Екатеринбурге
+				</div>
+				<div class="reason__line"></div>
+				<p>Финалисты чемпионата пройдут <br>оплачиваемую стажировку в<br>Дирекции региональных продаж<br>ПАО «Газпром нефть»</p>
+			</div>
+		    <div class="reason">
+		    	<div class="reason__slang">Погружение в актуальные задачи</div>
+		    	<div class="reason__line"></div>
+		    	<p>Вы получите уникальные<br>возможности погрузиться в задачи компании</p>
+		    </div>
+		    <div class="reason">
+		    	<div class="reason__slang">Получение передовых знаний и навыков</div>
+		    	<div class="reason__line"></div>
+		    	<p>Вы узнаете о новых подходах к<br>разработке стратегии продвижения<br> продуктов, продвинутой аналитике<br>и инжинирингу данных</p>
+		    </div>
+	    </div>
+	</div>
+</div><!-- //причины -->
+
+<!-- условия -->
+<div class="section section-conditionals" id = "conditions">
+	<div class="wrap">
+		<h2>Условия для участия</h2>
+		<div class="conditionals">
+			<div class="conditional">
+				<div class="conditional-text">Вы студент старших курсов направлений:</div>
+				<ul>
+					<li>Бизнес-иформатика</li>
+					<li>Бизнес-аналитика</li>
+					<li>Прикладная и фундаментальная математика</li>
+					<li>Системный анализ и программирование</li>
+					<li>Математические методы в экономике</li>
+					<li>Экономика и менеджмент</li>
+					<li>Логистика и управление цепями поставок</li>
+				</ul>
+			</div>
+			<div class="conditional">
+				<div class="conditional-text">Обладаете навыками:</div>
+				<ul>
+					<li>Программирование</li>
+					<li>Финансовый анализ и моделирование</li>
+				</ul>
+				<p>Знаете,  что такое: QlikView, Qlik Sense,  SQL, RapidMiner, Python,R, Java</p>
+			</div>
+			<div class="conditional">
+				<div class="conditional-text">Вам интересно:</div>
+				<ul>
+					<li>Работать в команде</li>
+					<li>Решать нестандартные задачи</li>
+					<li>Развиваться в профессиональной<br>деятельности</li>
+					<li>Выстраивать коммуниации</li>
+					<li>Управлять проектом</li>
+				</ul>
+			</div>
+		</div>
+		<div class="conditionals-text">
+			<div class="conditionals-text__title">Выбирайте направление и <a href="">регистрируйтесь</a> на кейс-чемпионат GPN Intelligence Cup!</div>
+			<p>Это Ваш шанс начать карьеру в Дирекции региональных продаж «Газпром нефть»!</p>
+		</div>
+	</div>
+</div>
+<!-- //условия -->
+<div class="section section-reviews" id = "reviews">
+	<div class="wrap">
+		<h2>Отзывы участников</h2>
+		<div class="rewiews-carouse1 js-reviews-carousel">
+			<!-- rewiew -->
+			<div class="rewiew">
+				<div class="rewiew__photo">
+					<img src="images/reviews/photo1.jpg" alt = "">
+				</div>
+				<div class="rewiew__name">Багаутдинов Альберт Ильшатович</div>
+				<p>Стажировка в Дирекции Региональных Продаж ПАО «Газпром нефть» предоставила мне возможность поучаствовать в реальных интересных проектах по бизнес-анализу и открыть новые для себя направления в области управления данными. Такая практика позволяет не только получить передовой опыт, но и оценить собственные знания, что является важным вкладом для дальнейшего развития.</p>
+			</div>
+			<div class="rewiew">
+				<div class="rewiew__photo">
+					<img src="images/reviews/photo2.jpg" alt = "">
+				</div>
+				<div class="rewiew__name">Самарина Ольга Николаевна</div>
+				<p>Стажировка в Дирекции Региональных Продаж ПАО «Газпром нефть» предоставила мне возможность поучаствовать в реальных интересных проектах по бизнес-анализу и открыть новые для себя направления в области управления данными. Такая практика позволяет не только получить передовой опыт, но и оценить собственные знания, что является важным вкладом для дальнейшего развития.</p>
+			</div>
+			<div class="rewiew">
+				<div class="rewiew__photo">
+					<img src="images/reviews/photo3.jpg" alt = "">
+				</div>
+				<div class="rewiew__name">Дуров Валентин<br>Петрович</div>
+				<p>Стажировка в Дирекции Региональных Продаж ПАО «Газпром нефть» предоставила мне возможность поучаствовать в реальных интересных проектах по бизнес-анализу и открыть новые для себя направления в области управления данными. Такая практика позволяет не только получить передовой опыт, но и оценить собственные знания, что является важным вкладом для дальнейшего развития.</p>
+			</div>
+			<div class="rewiew">
+				<div class="rewiew__photo">
+					<img src="images/reviews/photo1.jpg" alt = "">
+				</div>
+				<div class="rewiew__name">Данилов Альберт Валентинович</div>
+				<p>Стажировка в Дирекции Региональных Продаж ПАО «Газпром нефть» предоставила мне возможность поучаствовать в реальных интересных проектах по бизнес-анализу и открыть новые для себя направления в области управления данными. Такая практика позволяет не только получить передовой опыт, но и оценить собственные знания, что является важным вкладом для дальнейшего развития.</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- О компании -->
+<div class="section-resume">
+	<div class="wrap">
+		<h2>Кратко о нас</h2>
+		<p>Газпром нефть» - дочернее предприятие ПАО «Газпром», одна из крупнейших российских вертикально-интегрированных компаний. Продукция компании - топливо для автомобилей, самолетов и судов, смазочные и битумные материалы - сегодня успешно конкурирует как на российском, так и на международном рынке. В структуру компании входят более 70 нефтедобывающих, нефтеперерабатывающих и сбытовых предприятий в России, странах ближнего и дальнего зарубежья.</p>
+		<p>Дирекция региональных продаж ПАО «Газпром нефть» занимается реализацией нефтепродуктов собственных предприятий на оптовом и розничном рынках. Компания ведет работу по расширению и модернизации собственной розничной сети, в состав которой входит порядка 1400 станций. Недавно Дирекция представила новые решения для корпоративных клиентов в сфере грузоперевозок и логистики под брендом «ОПТИ 24».</p>
+	</div>
+</div>
+<div class="inform__company">
+	<div class="wrap">
+		<div class="companies">
+			<div class="companies__org">
+				<h3>Организаторы</h3>
+				<a href=""><img src="images/apn-logo.svg"></a>
+			</div>
+			<div class="companies__part">
+				<h3>Информационные партнеры</h3>
+				<div class="companies__part__photo">
+					<a href=""><img src="images/partners/invitro.svg"></a>
+					<a href=""><img src="images/partners/stonecity.png"></a>
+					<a href=""><img src="images/partners/teletrade.svg"></a>
+					<a href=""><img src="images/partners/tervolina.jpg"></a>
+					<a href=""><img src="images/partners/velostrana.svg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div class="wrap">
+		<p>По всем вопросам участия и сотрудничества обращаться на почту: <a href="">gpncup@gazprom-neft.ru</a></p>
+	    <p><a href="">Политика обработки персональных данных</a></p>
+	    <p>Copyright 2018</p>
+	</div>
+</footer>
+
+<!--подключаем скрипты-->
+<script src = "js/jquery-3.2.1.min.js"></script><!--библиотека-->
+<script src = "js/jquery.easing.1.3.js"></script><!--плавная прокрутка-->
+<script src = "js/slick/slick.min.js"></script><!--карусель отзывов-->
+<script src = "js/main.js"></script>
+</body>
+</html>
